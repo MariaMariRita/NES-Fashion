@@ -5,21 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet" />
-    <title>NESFashion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Saiba Mais - NESFashion Kids</title>
 </head>
-<body class="bg-[url('https://www.transparenttextures.com/patterns/small-grid.png')] bg-gray-200">
-    <div class="back flex h-12 w-full items-center bg-gradient-to-r from-purple-600 to-green-600 px-6">
-        <!-- Ícone da logo -->
-        <i class="fa-solid fa-user-astronaut mr-4 text-xl text-white sm:text-lg md:text-xl lg:text-2xl"></i>
-      
-        <!-- Texto com fonte Jaro e responsivo -->
-        <span class="font-[Jaro] text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[2vw] font-bold text-white">NES FASHION</span>
-      
-        <!-- Navbar com links -->
-        <ul class="ml-auto flex space-x-8 font-[rakkas-regular]">
-          <li><a href="home.html" class="bg-black bg-opacity-50 px-4 py-2 rounded-lg font-serif text-white hover:text-gray-300 shadow-lg transition duration-300 text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-[1.5vw]">Conheça</a></li>
-          <li><a href="produtos.html" class="bg-black bg-opacity-50 px-4 py-2 rounded-lg font-serif text-white hover:text-gray-300 shadow-lg transition duration-300 text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-[1.5vw]">Produtos</a></li>
-          <li><a href="saibamais.html" class="bg-black bg-opacity-50 px-4 py-2 rounded-lg font-serif text-white hover:text-gray-300 shadow-lg transition duration-300 text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-[1.5vw]">Saiba Mais</a></li>
-        </ul>
-      </div>
+<body class="bg-gradient-to-r from-pink-100 to-blue-100 font-['Fredoka One']">
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fa-solid fa-user-astronaut text-3xl text-purple-600 mr-3"></i>
+                <span class="text-2xl font-bold text-purple-600 font-['Bangers']">Nes Fashion Kids</span>
+            </div>
+            <ul class="flex space-x-6 font-['Permanent Marker']">
+                <li><a href="index.html" class="text-purple-600 hover:text-purple-800 transition duration-300">Início</a></li>
+                <li><a href="produtos.html" class="text-purple-600 hover:text-purple-800 transition duration-300">Produtos</a></li>
+                <li><a href="saibamais.html" class="text-purple-600 hover:text-purple-800 transition duration-300">Saiba Mais</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-8">
+        <h1 class="text-4xl font-bold text-purple-600 mb-8 text-center">O que as crianças dizem sobre nós</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <img src="imagens/crianca.jpg" alt="Criança 1" class="w-24 h-24 rounded-full mx-auto mb-4">
+                <p class="text-gray-600 mb-2">"Eu amo minhas roupas da NESFashion Kids! São tão confortáveis e divertidas!"</p>
+                <p class="text-purple-600 font-bold">- Maria, 8 anos, São Paulo</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <img src="imagens/crianca.jpg" alt="Criança 2" class="w-24 h-24 rounded-full mx-auto mb-4">
+                <p class="text-gray-600 mb-2">"As camisetas são super legais e eu posso brincar o dia todo com elas!"</p>
+                <p class="text-purple-600 font-bold">- João, 7 anos, Rio de Janeiro</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <img src="imagens/crianca.jpg" alt="Criança 3" class="w-24 h-24 rounded-full mx-auto mb-4">
+                <p class="text-gray-600 mb-2">"Eu me sinto uma princesa com os vestidos da NESFashion Kids!"</p>
+                <p class="text-purple-600 font-bold">- Ana, 6 anos, Belo Horizonte</p>
+            </div>
+        </div>
+
+        <div class="mt-12 text-center">
+            <h2 class="text-3xl font-bold text-purple-600 mb-4">Nossa Missão Cumprida</h2>
+            <p class="text-xl text-gray-600">Na NESFashion Kids, nosso objetivo sempre foi proporcionar conforto, qualidade e estilo para as crianças. Pelos sorrisos e feedbacks que recebemos, podemos dizer com orgulho que estamos no caminho certo!</p>
+        </div>
+
+        <div class="mt-12">
+            <h2 class="text-3xl font-bold text-purple-600 mb-4 text-center">Entre em Contato</h2>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="text-purple-600 hover:text-purple-800"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="text-purple-600 hover:text-purple-800"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" class="text-purple-600 hover:text-purple-800"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="text-purple-600 hover:text-purple-800"><i class="far fa-envelope fa-2x"></i></a>
+            </div>
+            <p class="text-center mt-4 text-gray-600">Email: contato@nesfashionkids.com | Telefone: (11) 1234-5678</p>
+        </div>
+    </main>
+
+    <footer class="bg-purple-600 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 NESFashion Kids. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
